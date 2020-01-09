@@ -1,6 +1,7 @@
 ABass = {
  \partial 8*4
- e,8 e,8 f,8 fis,  
+ %\grace s8
+ \tuplet 3/2 { \grace s8 e,4 ~ e,8}  f,8 fis,  
  b,4 b, b, b,
  b, b, e,8 e,8 f,8 fis,
  b,4 b, b, b,

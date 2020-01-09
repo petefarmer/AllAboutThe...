@@ -2,6 +2,7 @@
 \version "2.19.82"
 \include "definitions_No-Tab.ly"
 \include "AGuitar.ly"
+\include "BGuitar.ly"
 \include "AChordNames.ly"
 \include "ABass.ly"
 
@@ -12,7 +13,7 @@
   subsubtitle = "v0.1"
   composer = "John Jorgenson"
   copyright = \markup { \char ##x00A9 Copyright Jorgensongs 2020 }
- }   
+ }    
 
 \score {
 %\unfoldRepeats
@@ -34,6 +35,7 @@
      \time 4/4   
      \tempo 4 = 174
      \AGuitar
+     \BGuitar
   }
   
 
