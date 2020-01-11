@@ -5,6 +5,7 @@
 \include "BGuitar.ly"
 \include "AChordNames.ly"
 \include "ABass.ly"
+\include "BBass.ly"
 
 \book {
  \header {
@@ -21,7 +22,7 @@
 %{
    \new ChordNames  {
    \override ChordName #'font-size = #-1
-%  \AChordNames
+%  \AChordNames 
 
    }
 %}
@@ -46,6 +47,7 @@
       \key b \minor
  %     \time 4/4   
       \ABass
+%        \BBass
   }
     
  >> % StaffGroup
