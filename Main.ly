@@ -11,7 +11,7 @@
  \header {
   title = "All About The..."
   subtitle = "DRAFT"
-  subsubtitle = "v0.1"
+  subsubtitle = "v0.1.1"
   composer = "John Jorgenson"
   copyright = \markup { \char ##x00A9 Copyright Jorgensongs 2020 }
  }    
@@ -28,7 +28,7 @@
 %}
 
   \new Staff \with {
-   instrumentName = \markup {\line {"Guitar"}}
+   instrumentName = \markup {\line {"Guitar"}} 
    \clef "treble_8"
 
   }{
@@ -47,7 +47,7 @@
       \key b \minor
  %     \time 4/4   
       \ABass
-%        \BBass
+      \BBass
   }
     
  >> % StaffGroup
