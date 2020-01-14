@@ -17,7 +17,7 @@ AGuitar = {
  e'4 d'8  r8  cis'8 d'4 e'8 ~
  e'4 fis8 gis8 <b e'>4 <b e'>4
  fis,8 ais,8 cis8 dis8 e8 cis8 e8 fis8
- \tuplet 3/2 {g8 a g}  fis8 g8 fis4 fis4
+ g8 a16 g16  fis8 g8 fis4 fis4
  \tuplet 3/2 {e,8 fis, g,} \tuplet 3/2 {a, b, cis} \tuplet 3/2 {d e fis} \tuplet 3/2 {g a b}
  }
  \alternative {
